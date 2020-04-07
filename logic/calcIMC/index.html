@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Want to know your BMI?</h1>
+        <p class="rtext">The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, overweight, or obese based on tissue mass (muscle, fat, and bone) and height. </p>
+        <div class="rows">
+            <div class="left">
+                <h2>BMI</h2>
+                <p>Less than 18.5</p>
+                <p>Between 18.5 and 24.9</p>
+                <p>Between 25 and 29.9</p>
+                <p>Between 30 and 34.9</p>
+                <p>Between 35 and 39.9</p>
+                <p>More than 40</p>
+            </div>
+            <div class="right">
+                <h2>Result</h2>
+                <p>Underweight</p>
+                <p>Normal weight</p>
+                <p>Overwight</p>
+                <p>Obesity grade 1</p>
+                <p>Obesity grade 2</p>
+                <p>Obesity grade 3</p>
+            </div>
+        </div>
+        <form id="form" action="/">
+            <label>Height in m</label>
+            <input id="height" type="text"></input>
+
+            </i><label>Weight in kg</label>
+            <input id="weight" type="number"></input>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
